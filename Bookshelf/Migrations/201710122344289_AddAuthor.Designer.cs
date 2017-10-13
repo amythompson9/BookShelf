@@ -13,7 +13,7 @@ namespace Bookshelf.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201710120031133_AddAuthor"; }
+            get { return "201710122344289_AddAuthor"; }
         }
         
         string IMigrationMetadata.Source

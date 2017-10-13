@@ -10,7 +10,6 @@ namespace Bookshelf.Models
     public class Book
     {
         [Key]
-
         public int ID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
@@ -22,7 +21,7 @@ namespace Bookshelf.Models
         public virtual Category Category { get; set; }
 
         [ForeignKey("Author")]
-        public int AuthorID { get; set; }
+        public int? AuthorID { get; set; }
         public virtual Author Author { get; set; }
 
     }

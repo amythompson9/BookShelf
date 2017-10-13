@@ -22,5 +22,7 @@ namespace Bookshelf.Models
         public System.Data.Entity.DbSet<Bookshelf.Models.Book> Books { get; set; }
 
         public System.Data.Entity.DbSet<Bookshelf.Models.Category> Categories { get; set; }
+
+        public System.Data.Entity.DbSet<Bookshelf.Models.Author> Authors { get; set; }
     }
 }

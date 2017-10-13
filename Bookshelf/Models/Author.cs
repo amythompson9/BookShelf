@@ -9,8 +9,8 @@ namespace Bookshelf.Models
     public class Author
     {
         [Key]
-        public string ID { get; set; }
-        public string LastFirst { get; set; }
-        public virtual ICollection<Author> Authors { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
